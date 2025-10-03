@@ -1,0 +1,69 @@
+/*This is how comments look in CSS*/
+/* Reset default spacing and set base font */
+body, h1, h2, h3, p, ul, ol {
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  font-family: 'Segoe UI', sans-serif; /* Sets a clean, modern font */
+  line-height: 1.6; /* Adds space between lines for readability */
+}
+
+/*Styling the Header(including its <h1> and <p> elements)*/
+header {
+  text-align: center; /*Moves the Header to the center of a page*/
+  color: #1A1743;
+  background-color: #E5E4EA;
+  padding: 2em; /*adds more spacing around the text*/
+  margin: 15px; /*adds margin around the Header*/
+}
+
+/* Body text color and spacing */
+body {
+  color: #1A1743; 
+  padding: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Spacing around Lists */
+ul, ol {
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Spacing around paragraphs */
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/*background-color of smaller Headings*/
+h2 {
+  background-color: #E5E4EA;
+}
+
+/*underline all elements with class="important"*/
+.important {
+  text-decoration: underline;
+}
+
+/*image size adjusts to the size of the page*/
+#doodle {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Color of Links and no underline */
+a {
+  color: #1A1743;
+  text-decoration: none;
+}
+
+/*underline Links only when hovering over them with the cursor*/
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: right;
+}
